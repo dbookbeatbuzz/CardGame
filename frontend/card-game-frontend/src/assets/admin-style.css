@@ -1,0 +1,47 @@
+.admin-page {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #2b6777;
+  margin-bottom: 20px;
+}
+
+.form input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #2b6777;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #134e4a;
+}
+
+.error {
+  color: red;
+  margin-top: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.room-list li {
+  margin: 10px 0;
+}
